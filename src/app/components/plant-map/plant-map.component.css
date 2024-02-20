@@ -1,0 +1,46 @@
+/* :host {
+  display: block;
+  height: 800px;
+  width: 1200px;
+
+  .plant-map-container {
+    height: 100%;
+  }
+
+  .div-icon {
+    background-color: red;
+  }
+} */
+
+/* FOR VIEW ENCAPSULATION NONE */
+app-plant-map {
+  display: block;
+  height: 800px;
+  width: 1200px;
+
+  .plant-map-container {
+    height: 100%;
+  }
+
+  .lf-div-icon {
+    background-color: red;
+  }
+
+  .lf-layer-title {
+    font: 500 18px/20px Monospace;
+    text-decoration: underline;
+  }
+
+  .editor {
+    background-color: red;
+    color: white;
+    height: 300px;
+    width: 300px;
+
+    .editor-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+
+}

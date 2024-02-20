@@ -1,0 +1,11 @@
+.editor {
+  background-color: red;
+  color: white;
+  height: 300px;
+  width: 300px;
+
+  .editor-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
